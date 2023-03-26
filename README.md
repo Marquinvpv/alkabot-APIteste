@@ -16,16 +16,6 @@ npm start
 
 This will start the project and open it in your default browser.
 
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch with your changes: `git checkout -b my-new-feature`.
-3. Commit your changes: `git commit -am 'Add some feature'`.
-4. Push to the branch: `git push origin my-new-feature`.
-5. Submit a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for more details.
