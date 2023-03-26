@@ -1,0 +1,21 @@
+.userpage {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.user {
+    padding: 1rem 2rem;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+span {
+    display: flex;
+}

@@ -1,0 +1,31 @@
+.homepage{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    gap: 30px;
+    padding: 0 100px;
+    font-family: Ubuntu;
+}
+
+.title-page {
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 100px;
+    border-bottom: 1px solid #000;
+}
+
+.post {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post:hover {
+transform: SCALE(1.05);
+}
