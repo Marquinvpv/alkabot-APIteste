@@ -1,4 +1,4 @@
-# Project Name
+# Blog Post
 
 This project is a React-based blog that consumes an API from `jsonplaceholder.typicode.com`. It displays a list of posts on the home page, including the author user name, the post itself, a link to the comments page of the post, and a link to the author's profile (by clicking on their name).
 
