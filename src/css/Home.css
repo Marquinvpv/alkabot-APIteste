@@ -10,7 +10,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
     gap: 30px;
-    padding: 0 100px;
+    box-sizing: border-box;
+    padding: 0 2rem;
     font-family: Ubuntu;
 }
 
@@ -18,7 +19,7 @@
     font-family: Ubuntu;
     font-size: 2rem;
     font-weight: 500;
-    padding: 0 100px;
+    padding: 0 2rem;
     border-bottom: 1px solid #000;
 }
 
