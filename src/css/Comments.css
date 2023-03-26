@@ -1,0 +1,25 @@
+.comment {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border: 1px solid hsl(219, 12%, 42%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: hsl(211, 68%, 94%);
+    gap: 0.5rem;
+}
+
+.commentpage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,2fr));
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+
+.c-title {
+   font-size: 1.1rem;
+    font-weight: bold;
+    color: #0a327b;
+}

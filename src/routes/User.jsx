@@ -34,24 +34,52 @@ const User = () => {
     return (
         <div className='userpage'>
             {user.length === 0 ? (<p>Carregando...</p>) : (
-                    <div className="user" key={user.id}>
-                        <p>Name: </p>
+                <div className="user" key={user.id}>
+                    <h2>Profile</h2>
+                    <div>
+                        <span className='title'>Name: </span>
                         <span>{user.name}</span>
-                        <p>Username: </p>
-                        <span> {user.username}</span>
-                        <p>Email: </p>
-                        <span> {user.email}</span>
-                        <p>Phone: </p>
-                        <span> {user.phone}</span>
-                        <p>Website: </p>
-                        <span>{user.website}</span>
-                        <p>Address:</p>
-                        <span>Street: {user.address.street}</span>
-                        <span>Suite: {user.address.suite}</span>
-                        <span>City: {user.address.city}</span>
-                        <span>Zispancode: {user.address.zipcode}</span>
                     </div>
-                )
+                    <div>
+                        <span className='title'>Username: </span>
+                        <span> {user.username}</span>
+                    </div>
+                    <div>
+                        <span className='title'>Email: </span>
+                        <span> {user.email}</span>
+                    </div>
+                    <div>
+                        <span className='title'>Phone: </span>
+                        <span> {user.phone}</span>
+
+                    </div>
+                    <div>
+                        <span className='title'>Website: </span>
+                        <span>{user.website}</span>
+                    </div>
+                    <p>Address:</p>
+                    <div className='address'>
+                        <div>
+                            <span className='title'>Street:</span>
+                            <span> {user.address.street}</span>
+                        </div>
+                        <div>
+                            <span className='title'>Suite:</span>
+                            <span> {user.address.suite}</span>
+                        </div>
+                        <div>
+                            <span className='title'>City:</span>
+                            <span> {user.address.city}</span>
+                        </div>
+                        <div>
+                            <span className='title'>Zipcode:</span>
+                            <span> {user.address.zipcode}</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            )
             }
         </div>
     )

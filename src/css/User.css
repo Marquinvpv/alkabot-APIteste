@@ -1,21 +1,41 @@
 .userpage {
     display: flex;
-    justify-content: space-around;
     padding: 10px;
+    font-family: Ubuntu;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+h2 {
+    color: #0a327b;
+    margin-bottom: 1rem;
 }
 
 .user {
     padding: 1rem 2rem;
-    border: 1px solid red;
+    border: 1px solid hsl(219, 12%, 42%);
     border-radius: 10px;
+    box-sizing: border-box;
+    height: fit-content;
+    margin-top: 10rem;
+    background-color: hsl(211, 68%, 94%);
 }
 
-p {
+.user div {
     display: flex;
-    font-size: 1.2rem;
-    font-weight: 700;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 span {
     display: flex;
+    color: hsl(219, 12%, 42%);
+}
+
+.title, .user p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0a327b;
 }

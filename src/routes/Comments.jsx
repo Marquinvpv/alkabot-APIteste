@@ -36,13 +36,18 @@ const Comments = () => {
 
 
     return (
-        <div>
+        <div className='commentpage'>
             {comments.length === 0 ? (<p>Carregando...</p>) : (
                 comments.map((comment) => (
                     <div className="comment" key={comment.id}>
-                        <p>{comment.name}</p>
-                        <p>{comment.email}</p>
-                        <p>{comment.body}</p>
+                        <div>
+                            <span className='c-title'>Name: </span>
+                            <span className='c-name'>{comment.name}</span>
+                        </div>
+                        <div>
+                            <span className='c-title'>Comment: </span>
+                            <span className='c-body'>{comment.body}</span>
+                        </div>
                     </div>
                 ))
             )}

@@ -60,7 +60,7 @@ const Home = () => {
         {posts.length === 0 || users.length === 0 ? (<p>Carregando...</p>) : (
           posts.map((post) => (
             <div className="post" key={post.id}>
-              <Link to={`/user/${post.userId}`}><p>{users.find((item) => item.id === post.userId)?.username}</p></Link>
+              <Link to={`/user/${post.userId}`} className='btn'><p>{users.find((item) => item.id === post.userId)?.username}</p></Link>
               <h2>{post.title}</h2>
               <p>{post.body}</p>
               <Link to={`/posts/${post.id}/comments`} className="btn">Comments</Link>

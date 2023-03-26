@@ -3,6 +3,7 @@
     justify-content: space-around;
     flex-direction: column;
     gap: 30px;
+    box-sizing: border-box;
 }
 
 .posts {
@@ -24,8 +25,24 @@
 .post {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .post:hover {
 transform: SCALE(1.05);
+}
+
+.btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0a327b;
+    text-decoration: none;
+}
+
+.btn:hover {
+   color:  hsl(219, 12%, 42%);
 }
