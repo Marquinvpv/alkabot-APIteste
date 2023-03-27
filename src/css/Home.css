@@ -42,6 +42,7 @@ transform: SCALE(1.05);
     font-weight: bold;
     color: #0a327b;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn:hover {
